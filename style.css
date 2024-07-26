@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media(max-width:768px){
+    body{
+        background-color: lightcoral;
+        font-size: 15px;
+    }
+}
+@media (max-width:600px) {
+    body{
+        background-color: lightgreen;
+        font-size: 14px;
+    }
+    
+}
+@media(orientation:portrait){
+    body{
+        background-color: lightpink;
+    }
+}
+@media(orientation:landscape){
+    body{
+        background-color: lightyellow;
+    }
+}
